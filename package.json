@@ -1,0 +1,25 @@
+{
+  "name": "ephesoft-nodejs-document-classification-skill",
+  "version": "1.0.0",
+  "description": "Document classification of PDF files using Ephesoft's ocrClassifyExtract API.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jedwardsjunior/ephesoft-nodejs-document-classification-skill.git"
+  },
+  "author": "jedwards",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jedwardsjunior/ephesoft-nodejs-document-classification-skill/issues"
+  },
+  "homepage": "https://github.com/jedwardsjunior/ephesoft-nodejs-document-classification-skill#readme",
+  "dependencies": {
+    "box-node-sdk": "^1.9.0",
+    "request": "^2.83.0",
+    "unescape-js": "^1.0.8",
+    "xml2js": "^0.4.19"
+  }
+}

@@ -21,10 +21,6 @@
  */
 exports.saveMetadata = (client, fileID, metadata, callback) => {
 	client.files.addMetadata(fileID, client.metadata.scopes.GLOBAL, 'properties', metadata, (error, result) => {
-		if (!metadata.hasOwnProperty('Document Type')) {
-			callback(null, metadata);
-		}
-
 		if (error) {
 			console.log(error);
 			callback(error);
